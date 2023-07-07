@@ -1,2 +1,3 @@
 # PESELvalidator
-implementation of PESEL validator using regex and control sum. 
+Implementation of PESEL validator using regex and control sum. 
+Person class with PESEL extractor for gender and birthdate.

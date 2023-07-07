@@ -1,0 +1,26 @@
+@startuml test
+
+
+class Person {
+    - peselNumber : String
+    - name : String
+    - surname : String
+    - gender : String
+    - dateOfBirth : LocalDate
+    ----
+    + getName():String
+    + setName(name: String):void
+    + getSurname():String
+    + setSurname(lastName: String):void
+    + getPeselNumber():String
+    + getGender():String
+    + getDateOfBirth():LoocalDate
+
+}
+
+class PeselValidator {
+    ----
+    + {static}  isValid(pesel : String) : boolean
+ }
+
+@enduml
